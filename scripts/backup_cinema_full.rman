@@ -1,0 +1,5 @@
+run {
+	configure retention policy to redundancy 2;
+	backup database plus archivelog delete input;
+	delete obsolete;
+}
