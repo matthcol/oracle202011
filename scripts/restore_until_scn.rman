@@ -1,0 +1,5 @@
+run {
+	set until scn 2900499;
+	restore database;
+	recover database;
+}

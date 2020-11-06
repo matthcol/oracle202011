@@ -1,0 +1,5 @@
+run {
+	set until sequence 14;
+	restore database;
+	recover database;
+}
